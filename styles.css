@@ -26,7 +26,7 @@ nav {
     text-align: center;
     /* padding: 1rem; */
     font-family: 'Dancing Script', cursive;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 nav ul {
@@ -90,4 +90,6 @@ footer {
 
     main {
         max-width: 75%;
+
     }
+}
