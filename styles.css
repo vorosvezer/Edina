@@ -1,13 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("bg.jpg");
+    background-image: url(/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    /* background-color: #FFF7F1; */
-    /* color: #E78895; */
     font-family: 'Source Sans Pro',
         sans-serif;
     font-size: 14px;
@@ -19,19 +16,15 @@ body {
 
 header {
     background-color: transparent;
-    color: #333;;
+    color: #333;
     text-align: center;
-    /* padding: 1rem; */
-    /* font-family: 'Dancing Script', cursive; */
-    /* font-size: 1.5vw; */
+
 }
 
 nav {
 
     text-align: center;
-    /* padding: 1rem; */
-    /* font-family: 'Dancing Script', cursive; */
-    /* font-size: 1.5vw; */
+
 }
 
 nav ul {
@@ -52,29 +45,29 @@ nav a {
 /* Main */
 
 
-main {
+.blue {
     max-width: 80%;
     margin: 0 auto;
     padding: 2rem;
-    background-color: #FFE4C9;
+    background: rgba(140, 185, 189, 0.6);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
     margin-bottom: 1rem;
-    border-radius: 15px;
-    opacity: 0.6;
+    border-radius: 5px;
+
 }
 
 
-div {
+.pink {
+
     max-width: 80%;
     margin: 0 auto;
     padding: 2rem;
-    background-color: #8CB9BD;
+    background: rgba(255, 228, 201, 0.6);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding-bottom: 1rem;
-    /* color: #FFE4C9; */
     margin-bottom: 1rem;
     border-radius: 5px;
-    opacity: 0.6;
+
 }
 
 /* Footer */
