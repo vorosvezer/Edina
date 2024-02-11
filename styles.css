@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFF7F1;
-    color: #E78895;
+    /* color: #E78895; */
     font-family: 'Source Sans Pro',
         sans-serif;
     font-size: 14px;
@@ -17,16 +17,16 @@ header {
     color: #E78895;
     text-align: center;
     /* padding: 1rem; */
-    font-family: 'Dancing Script', cursive;
-    font-size: 3vw;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 1.5vw;
 }
 
 nav {
 
     text-align: center;
     /* padding: 1rem; */
-    font-family: 'Dancing Script', cursive;
-    font-size: 3.5vw;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 1.5vw;
 }
 
 nav ul {
@@ -41,7 +41,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #B3A398;
+    color: black;
 }
 
 /* Main */
@@ -65,7 +65,7 @@ div {
     background-color: #8CB9BD;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding-bottom: 1rem;
-    color: #FFE4C9;
+    /* color: #FFE4C9; */
     margin-bottom: 1rem;
     border-radius: 5px;
 }
