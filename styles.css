@@ -1,7 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #FFF7F1;
+    background-image: url(/bg.jpg);
+    background-size: 100%;
+
+    /* background-color: #FFF7F1; */
     /* color: #E78895; */
     font-family: 'Source Sans Pro',
         sans-serif;
@@ -55,6 +58,7 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
     border-radius: 15px;
+    opacity: 0.6;
 }
 
 
@@ -68,6 +72,7 @@ div {
     /* color: #FFE4C9; */
     margin-bottom: 1rem;
     border-radius: 5px;
+    opacity: 0.6;
 }
 
 /* Footer */
