@@ -18,7 +18,7 @@ header {
     text-align: center;
     /* padding: 1rem; */
     font-family: 'Dancing Script', cursive;
-    font-size: 2rem;
+    font-size: 3vw;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
     text-align: center;
     /* padding: 1rem; */
     font-family: 'Dancing Script', cursive;
-    font-size: 1.5rem;
+    font-size: 3vw;
 }
 
 nav ul {
@@ -78,3 +78,16 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+/* Optim */
+
+@media (max-width: 600px) {
+
+    /* Mobil nézet */
+    div {
+        max-width: 70%;
+    }
+
+    main {
+        max-width: 75%;
+    }
