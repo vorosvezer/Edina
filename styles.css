@@ -18,7 +18,7 @@ header {
     text-align: center;
     /* padding: 1rem; */
     font-family: 'Dancing Script', cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
     text-align: center;
     /* padding: 1rem; */
     font-family: 'Dancing Script', cursive;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 nav ul {
@@ -48,11 +48,26 @@ nav a {
 
 
 main {
-    max-width: 800px;
+    max-width: 80%;
     margin: 0 auto;
     padding: 2rem;
     background-color: #FFE4C9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+
+
+div {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #8CB9BD;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
+    color: #FFE4C9;
+    margin-bottom: 1rem;
+    border-radius: 5px;
 }
 
 /* Footer */
