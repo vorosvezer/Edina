@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF7F1;
+    color: #E78895;
+    font-family: 'Source Sans Pro',
+        sans-serif;
+    font-size: 14px;
+    line-height: 1.85;
+    font-weight: 400;
+}
+
+/* Header */
+
+header {
+    background-color: transparent;
+    color: #E78895;
+    text-align: center;
+    /* padding: 1rem; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
+
+nav {
+
+    text-align: center;
+    /* padding: 1rem; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #B3A398;
+}
+
+/* Main */
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #FFE4C9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
